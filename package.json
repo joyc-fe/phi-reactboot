@@ -1,0 +1,61 @@
+{
+  "name": "React",
+  "version": "0.0.1",
+  "description": "react demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --display-chunks --watch",
+    "server": "webpack-dev-server --content-base=dist  --inline --display-chunks --quiet --port=3002",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "start": "npm run dev & npm run server "
+  },
+  "author": "bd",
+  "license": "MIT",
+  "devDependencies": {
+    "animate.css": "^3.5.1",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-antd": "^0.4.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-runtime": "^6.2.0",
+    "css-loader": "^0.23.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "fastclick": "^1.0.6",
+    "file-loader": "^0.8.5",
+    "font-awesome": "^4.6.3",
+    "highcharts": "^4.2.5",
+    "imports-loader": "^0.6.5",
+    "open-browser-webpack-plugin": "0.0.2",
+    "copy-webpack-plugin": "^3.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.0",
+
+    "template-html-loader": "0.0.3",
+    "url-loader": "^0.5.7",
+    "postcss-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "dependencies": {
+    "antd": "^2.5.2",
+    "pace-progress": "^1.0.2",
+    "moment": "^2.15.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.4.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "react-redux": "^4.4.5"
+
+  },
+  "theme": {
+    "@primary-color": "#C82A2B"
+  }
+}

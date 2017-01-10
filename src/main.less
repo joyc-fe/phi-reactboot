@@ -1,0 +1,162 @@
+/* 左侧导航固定宽度 */
+#leftMenu {
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  border-right: 0px solid #e9e9e9;
+}
+
+body {
+  background-color: #eee !important;
+}
+
+/* logo样式 */
+#logo {
+
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+
+#logo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* 右侧宽度自适应 */
+#rightWrap {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+
+}
+
+.right-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px 20px 0;
+
+  top: 73px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+#rightWrap .ant-menu-submenu {
+  float: right;
+}
+
+.chart-box {
+  margin-top: 30px;
+}
+
+.ege {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.ege a {
+  color: #009688;
+  font-size: 16px;
+}
+
+.lastPic {
+  display: block;
+  margin: 16% auto 0;
+}
+
+.ani-box {
+  text-align: center;
+}
+
+.doclist {
+  line-height: 40px;
+}
+
+.header {
+
+  width: 100%;
+  height: 70px;
+  background-color: #404040;
+
+  .logo-section {
+
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    .title {
+      font-size: 26px;
+      color: #fff;
+      position: relative;
+      top: -4px;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 270px;
+  background-color: #404040;
+  margin-top: 50px;
+  .panel {
+    width: 90%;
+    height: 270px;
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+
+.footer {
+  .resNav {
+    font-size: 15px;
+    color: #666
+  }
+
+  .footNav td {
+
+    padding: 0 100px 0 0;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    a {
+      color: #888;
+    }
+  }
+}
+
+app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  .content {
+
+    margin: 25px auto 0 auto;
+    width: 90%;
+    border-radius: 5px;
+    border: 0px solid #a1a1a1;
+    overflow: auto;
+    padding-top: 20px;
+    background-color: #fff;
+    min-height: 540px;
+  }
+}
+
