@@ -1,6 +1,7 @@
 ---
 title: react router redux
 publishDate: 2017-01-10
+author: joyc
 ---
 
 - project Features:
@@ -9,3 +10,12 @@ publishDate: 2017-01-10
 
 - issues:
   - miss chunk splitting and lazyload
+
+
+
+- run app
+
+```
+npm install
+npm start
+```
