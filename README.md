@@ -1,5 +1,5 @@
 ---
-title: react router redux
+title: react-router-redux demo
 publishDate: 2017-01-10
 author: joyc
 ---
@@ -12,6 +12,11 @@ author: joyc
   - miss chunk splitting and lazyload
 
 
+- fork:
+  - react+redux+router完全开发案例。基于react的组件库
+  - 项目地址：http://mtui.mtsee.com/
+  - git地址：https://github.com/mtsee/mtui-react
+
 
 - run app
 
@@ -19,3 +24,5 @@ author: joyc
 npm install
 npm start
 ```
+
+
